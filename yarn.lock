@@ -2,10 +2,8 @@
 # yarn lockfile v1
 
 
-"@persephony/sdk@^1.1.1":
+"@freeclimb/sdk@file:../../../javascript-sdk":
   version "1.1.1"
-  resolved "https://registry.yarnpkg.com/@persephony/sdk/-/sdk-1.1.1.tgz#b6283e2185e6d2f5031dab5b14c798e84196ac9f"
-  integrity sha512-g90pbrF/s79G4S1buWhKm0o7suyuRE7citgtFYHvfLSvj7z6YqSlKnvFN4pp9dpid7cfkv6oSwyG7n96NsvYTg==
   dependencies:
     lodash.assign "^4.2.0"
     node-fetch "^2.6.0"
