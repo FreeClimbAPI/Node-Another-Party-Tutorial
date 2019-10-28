@@ -24,7 +24,7 @@ app.post('/conferenceCreated', (req, res) => {
   const conferenceId = createConferenceResponse.conferenceId
   const say = freeclimb.percl.say('Please wait while we attempt to connect you to an agent.')
   // implementation of lookupAgentPhoneNumber() is left up to the developer
-  const agentPhoneNumber = '+16302726769'
+  const agentPhoneNumber = lookupAgentPhoneNumber()
   // Make OutDial request once conference has been created
   const options = {
     // Hangup if we get a voicemail machine
