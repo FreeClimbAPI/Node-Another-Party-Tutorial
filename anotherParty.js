@@ -7,7 +7,7 @@ const app = express()
 app.use(bodyParser.json())
 // Where your app is hosted ex. www.myapp.com
 const host = process.env.HOST
-const port = process.env.PORT || 3000
+const port = process.env.PORT || 80
 // your freeclimb API key (available in the Dashboard) - be sure to set up environment variables to store these values
 const accountId = process.env.ACCOUNT_ID
 const authToken = process.env.AUTH_TOKEN
@@ -24,7 +24,7 @@ app.post('/conferenceCreated', (req, res) => {
   const conferenceId = createConferenceResponse.conferenceId
   const say = freeclimb.percl.say('Please wait while we attempt to connect you to an agent.')
   // implementation of lookupAgentPhoneNumber() is left up to the developer
-  const agentPhoneNumber = lookupAgentPhoneNumber()
+  const agentPhoneNumber = '+16302726769'
   // Make OutDial request once conference has been created
   const options = {
     // Hangup if we get a voicemail machine
