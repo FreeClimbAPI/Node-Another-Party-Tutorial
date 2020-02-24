@@ -1,6 +1,6 @@
 # Node - Connect Caller To Another Party
 
-This project serves as a guide to help you build an application with FreeClimb. View this tutorial on [FreeClimb.com](https://docs.freeclimb.com/docs/connect-a-caller-to-another-party-1#section-javascript). Specifically, the project will:
+This project serves as a guide to help you build an application with FreeClimb. View this tutorial on [FreeClimb.com](https://docs.freeclimb.com/docs/connect-a-caller-to-another-party-1#section-nodejs). Specifically, the project will:
 
 - Create a conference
 - Make an outbound call during the phone call
