@@ -85,7 +85,7 @@ app.post("/callConnected/:conferenceId", (req, res) => {
 
   const callConnectedResponse = req.body;
   const conferenceId = req.params.conferenceId;
-  console.log(`dialCallStatus is: ${callConnectedResponse.callStatus}`);
+  console.log(`callStatus is: ${callConnectedResponse.callStatus}`);
   console.log(`body: ${JSON.stringify(callConnectedResponse)}`);
   if (callConnectedResponse.callStatus != CallStatus.IN_PROGRESS) {
     console.log(CallStatus.IN_PROGRESS);
