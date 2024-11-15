@@ -17,7 +17,7 @@ const {
 const app = express();
 app.use(bodyParser.json());
 // NGROK Url
-const host = process.env.HOST_URL;
+const host = process.env.HOST;
 
 // Localhost port
 const port = process.env.PORT || 3000;
